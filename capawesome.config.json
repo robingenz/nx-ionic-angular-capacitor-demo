@@ -1,0 +1,12 @@
+{
+    "cloud": {
+        "apps": [
+            {
+                "appId": "c08a8edd-09b5-4b77-b6eb-a1058d337c22",
+                "baseDir": "apps/my-app",
+                "dependencyInstallCommand": "cd ../.. && npm install",
+                "webBuildCommand": "cd ../.. && npx nx run my-app:build"
+            }
+        ]
+    }
+}
